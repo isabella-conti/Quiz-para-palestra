@@ -1,3 +1,12 @@
+const startBtn = document.getElementById('start-btn');
+const quizEl = document.querySelector('.quiz');
+const welcomePageEl = document.querySelector('.welcome-page');
+
+startBtn.addEventListener('click', () => {
+    welcomePageEl.style.display = 'none';
+    quizEl.style.display = 'block';
+});
+
 const questions = [
     {
         question: "Qual peça de xadrez se move em forma de L?",
@@ -193,6 +202,5 @@ nextButton.addEventListener("click", ()=>{
         startQuiz();
     }
 });
-
 
 startQuiz();
