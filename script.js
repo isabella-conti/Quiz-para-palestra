@@ -1,50 +1,94 @@
 const questions = [
     {
-        question: "Which is the largest animal in the world?",
+        question: "Qual peça de xadrez se move em forma de L?",
         answers: [
-            {text: "Shark", correct: false},
-            {text: "Blue Whale", correct: true},
-            {text: "Elephant", correct: false},
-            {text: "Giraffe", correct: false},
+            {text: "Cavalo", correct: true},
+            {text: "Bispo", correct: false},
+            {text: "Torre", correct: false},
+            {text: "Peão", correct: false},
         ]
     },
     {
-        question: "Which is the smallest continent in the world?",
+        question: "Qual peça pode se mover qualquer número de casas em linha reta?",
         answers: [
-            {text: "Asia", correct: false},
-            {text: "Australia", correct: true},
-            {text: "Arctic", correct: false},
-            {text: "Africa", correct: false},
+            {text: "Rei", correct: false},
+            {text: "Torre", correct: true},
+            {text: "Bispo", correct: false},
+            {text: "Peão", correct: false},
         ]        
     },
     {
-        question: "Which is the largest desert in the world?",
+        question: "Qual peça pode se mover apenas uma casa em qualquer direção?",
         answers: [
-            {text: "Kalahari", correct: false},
-            {text: "Gobi", correct: false},
-            {text: "Sahara", correct: false},
-            {text: "Antarctica", correct: true},
+            {text: "Bispo", correct: false},
+            {text: "Torre", correct: false},
+            {text: "Rei", correct: true},
+            {text: "Peão", correct: false},
         ]        
     },
     {
-        question: "Which is the smallest country in the world?",
+        question: "Qual é a peça mais poderosa do xadrez?",
         answers: [
-            {text: "Vetican City", correct: true},
-            {text: "Bhutan", correct: false},
-            {text: "Nepal", correct: false},
-            {text: "Shri Lanka", correct: false},
+            {text: "Cavalo", correct: false},
+            {text: "Bispo", correct: false},
+            {text: "Torre", correct: false},
+            {text: "Dama", correct: true},
         ]        
     },
     {
-        question: "Which is the largest planet in our solar system?",
+        question: "Qual peça começa no canto do tabuleiro?",
         answers: [
-            {text: "Earth", correct: false},
-            {text: "Jupiter", correct: true},
-            {text: "Mars", correct: false},
-            {text: "Saturn", correct: false},
+            {text: "Bispo", correct: false},
+            {text: "Torre", correct: true},
+            {text: "Cavalo", correct: false},
+            {text: "Rei", correct: false},
         ]        
     },
-
+    {
+        question: "Quantas casas um peão pode mover-se em seu primeiro movimento?",
+        answers: [
+            {text: "Uma ou duas casas", correct: true},
+            {text: "Somente uma casa", correct: false},
+            {text: "Somente duas casas", correct: false},
+            {text: "Qualquer número de casas", correct: false},
+        ]        
+    },
+    {
+        question: "Qual peça só pode se mover na diagonal?",
+        answers: [
+            {text: "Cavalo", correct: false},
+            {text: "Bispo", correct: true},
+            {text: "Torre", correct: false},
+            {text: "Peão", correct: false},
+        ]        
+    },
+    {
+        question: "Quantas casas existem no tabuleiro de xadrez?",
+        answers: [
+            {text: "81", correct: false},
+            {text: "100", correct: false},
+            {text: "36", correct: false},
+            {text: "64", correct: true},
+        ]        
+    },
+    {
+        question: "O que acontece quando um peão atinge o outro lado do tabuleiro?",
+        answers: [
+            {text: "O peão é removido", correct: false},
+            {text: "O peão é promovido", correct: true},
+            {text: "O peão ganha outra jogada", correct: false},
+            {text: "O peão fica imobilizado", correct: false},
+        ]        
+    },
+    {
+        question: "Qual peça é a única que pode 'pular' sobre outras peças?",
+        answers: [
+            {text: "Bispo", correct: false},
+            {text: "Torre", correct: false},
+            {text: "Cavalo", correct: true},
+            {text: "Dama", correct: false},
+        ]        
+    }
 ];
 
 
